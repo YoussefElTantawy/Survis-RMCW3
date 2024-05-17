@@ -1,0 +1,121 @@
+﻿define({ entries : {
+    "8477564": {
+        "author": "Stirenko, Sergii and Kochura, Yuriy and Alienin, Oleg and Rokovyi, Oleksandr and Gordienko, Yuri and Gang, Peng and Zeng, Wei",
+        "booktitle": "2018 IEEE 38th International Conference on Electronics and Nanotechnology (ELNANO)",
+        "doi": "10.1109/ELNANO.2018.8477564",
+        "keywords": "Training;Lung;Image segmentation;Diseases;Machine learning;Graphics processing units;Conferences;deep learning;convolutional neural network;segmentation;open dataset;mask;data augmentation;TensorFlow;chest X-ray;computer-aided diagnosis;lung;tuberculosis",
+        "pages": "422-428",
+        "title": "Chest X-Ray Analysis of Tuberculosis by Deep Learning with Segmentation and Augmentation",
+        "type": "inproceedings",
+        "year": "2018"
+    },
+    "9224622": {
+        "author": "Rahman, Tawsifur and Khandakar, Amith and Kadir, Muhammad Abdul and Islam, Khandaker Rejaul and Islam, Khandakar F. and Mazhar, Rashid and Hamid, Tahir and Islam, Mohammad Tariqul and Kashem, Saad and Mahbub, Zaid Bin and Ayari, Mohamed Arselene and Chowdhury, Muhammad E. H.",
+        "doi": "10.1109/ACCESS.2020.3031384",
+        "journal": "IEEE Access",
+        "keywords": "X-ray imaging;Lung;Image segmentation;Deep learning;Diseases;Medical diagnostic imaging;Tuberculosis detection;TB screening;deep learning;transfer learning;lungs segmentation;image processing",
+        "pages": "191586-191601",
+        "title": "Reliable Tuberculosis Detection Using Chest X-Ray With Deep Learning, Segmentation and Visualization",
+        "type": "article",
+        "volume": "8",
+        "year": "2020"
+    },
+    "9396878": {
+        "author": "Hasan, Md. Jahid and Alom, Md. Shahin and Ali, Md. Shikhar",
+        "booktitle": "2021 International Conference on Information and Communication Technology for Sustainable Development (ICICT4SD)",
+        "doi": "10.1109/ICICT4SD50815.2021.9396878",
+        "keywords": "COVID-19;Deep learning;Image segmentation;Lung;Classification algorithms;X-ray imaging;Viruses (medical);COVID-19;Pneumonia;X-ray image classification;X-ray image segmentation;Deep Learning;Computer Vision",
+        "pages": "210-214",
+        "title": "Deep Learning based Detection and Segmentation of COVID-19 & Pneumonia on Chest X-ray Image",
+        "type": "inproceedings",
+        "year": "2021"
+    },
+    "BHATTACHARYYA2022103182": {
+        "abstract": "In this global pandemic situation of coronavirus disease (COVID-19), it is of foremost priority to look up efficient and faster diagnosis methods for reducing the transmission rate of the virus severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Recent research has indicated that radio-logical images carry essential information about the COVID-19 virus. Therefore, artificial intelligence (AI) assisted automated detection of lung infections may serve as a potential diagnostic tool. It can be augmented with conventional medical tests for tackling COVID-19. In this paper, we propose a new method for detecting COVID-19 and pneumonia using chest X-ray images. The proposed method can be described as a three-step process. The first step includes the segmentation of the raw X-ray images using the conditional generative adversarial network (C-GAN) for obtaining the lung images. In the second step, we feed the segmented lung images into a novel pipeline combining key points extraction methods and trained deep neural networks (DNN) for extraction of discriminatory features. Several machine learning (ML) models are employed to classify COVID-19, pneumonia, and normal lung images in the final step. A comparative analysis of the classification performance is carried out among the different proposed architectures combining DNNs, key point extraction methods, and ML models. We have achieved the highest testing classification accuracy of 96.6\\% using the VGG-19 model associated with the binary robust invariant scalable key-points (BRISK) algorithm. The proposed method can be efficiently used for screening of COVID-19 infected patients.",
+        "author": "Abhijit Bhattacharyya and Divyanshu Bhaik and Sunil Kumar and Prayas Thakur and Rahul Sharma and Ram Bilas Pachori",
+        "doi": "https://doi.org/10.1016/j.bspc.2021.103182",
+        "issn": "1746-8094",
+        "journal": "Biomedical Signal Processing and Control",
+        "keywords": "COVID-19, Pneumonia, Image segmentation, Conditional generative adversarial network (C-GAN), Key point extraction, Deep neural networks (DNN), Classification",
+        "pages": "103182",
+        "title": "A deep learning based approach for automatic detection of COVID-19 cases using chest X-ray images",
+        "type": "article",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1746809421007795",
+        "volume": "71",
+        "year": "2022"
+    },
+    "Chung2018": {
+        "author": "Chung, Seok and Han, Seung and Lee, Ji and Oh, Kyung-Soo and Kim, Na and Yoon, Jong Pil and Kim, Joon Yub and Moon, Sung and Kwon, Jieun and Lee, Hyo-Jin and Noh, Young-Min and Kim, Youngjun",
+        "doi": "10.1080/17453674.2018.1453714",
+        "journal": "Acta Orthopaedica",
+        "month": "03",
+        "pages": "1-6",
+        "title": "Automated detection and classification of the proximal humerus fracture by using deep learning algorithm",
+        "type": "article",
+        "volume": "89",
+        "year": "2018"
+    },
+    "KIM2021105833": {
+        "abstract": "For compression fracture detection and evaluation, an automatic X-ray image segmentation technique that combines deep-learning and level-set methods is proposed. Automatic segmentation is much more difficult for X-ray images than for CT or MRI images because they contain overlapping shadows of thoracoabdominal structures including lungs, bowel gases, and other bony structures such as ribs. Additional difficulties include unclear object boundaries, the complex shape of the vertebra, inter-patient variability, and variations in image contrast. Accordingly, a structured hierarchical segmentation method is presented that combines the advantages of two deep-learning methods. Pose-driven learning is used to selectively identify the five lumbar vertebrae in an accurate and robust manner. With knowledge of the vertebral positions, M-net is employed to segment the individual vertebra. Finally, fine-tuning segmentation is applied by combining the level-set method with the previously obtained segmentation results. The performance of the proposed method was validated by 160 lumbar X-ray images, resulting in a mean Dice similarity metric of 91.60\u00b12.22\\%. The results show that the proposed method achieves accurate and robust identification of each lumbar vertebra and fine segmentation of individual vertebra.",
+        "author": "Kang Cheol Kim and Hyun Cheol Cho and Tae Jun Jang and Jong Mun Choi and Jin Keun Seo",
+        "doi": "https://doi.org/10.1016/j.cmpb.2020.105833",
+        "issn": "0169-2607",
+        "journal": "Computer Methods and Programs in Biomedicine",
+        "keywords": "Lumbar X-ray, Vertebra segmentation, Vertebra detection, Deep learning, Level-set",
+        "pages": "105833",
+        "title": "Automatic detection and segmentation of lumbar vertebrae from X-ray images for compression fracture evaluation",
+        "type": "article",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0169260720316667",
+        "volume": "200",
+        "year": "2021"
+    },
+    "SOUZA2019285": {
+        "abstract": "Background and Objective Chest X-ray (CXR) is one of the most used imaging techniques for detection and diagnosis of pulmonary diseases. A critical component in any computer-aided system, for either detection or diagnosis in digital CXR, is the automatic segmentation of the lung field. One of the main challenges inherent to this task is to include in the segmentation the lung regions overlapped by dense abnormalities, also known as opacities, which can be caused by diseases such as tuberculosis and pneumonia. This specific task is difficult because opacities frequently reach high intensity values which can be incorrectly interpreted by an automatic method as the lung boundary, and as a consequence, this creates a challenge in the segmentation process, because the chances of incomplete segmentations are increased considerably. The purpose of this work is to propose a method for automatic segmentation of lungs in CXR that addresses this problem by reconstructing the lung regions \u201clost\u201d due to pulmonary abnormalities. Methods The proposed method, which features two deep convolutional neural network models, consists of four steps main steps: (1) image acquisition, (2) initial segmentation, (3) reconstruction and (4) final segmentation. Results The proposed method was experimented on 138 Chest X-ray images from Montgomery County\u2019s Tuberculosis Control Program, and has achieved as best result an average sensitivity of 97.54\\%, an average specificity of 96.79\\%, an average accuracy of 96.97\\%, an average Dice coefficient of 94\\%, and an average Jaccard index of 88.07\\%. Conclusions We demonstrate in our lung segmentation method that the problem of dense abnormalities in Chest X-rays can be efficiently addressed by performing a reconstruction step based on a deep convolutional neural network model.",
+        "author": "Johnatan Carvalho Souza and Jo\u00e3o Ot\u00e1vio {Bandeira Diniz} and Jonnison Lima Ferreira and Giovanni Lucca {Fran\u00e7a da Silva} and Arist\u00f3fanes {Corr\u00eaa Silva} and Anselmo Cardoso {de Paiva}",
+        "doi": "https://doi.org/10.1016/j.cmpb.2019.06.005",
+        "issn": "0169-2607",
+        "journal": "Computer Methods and Programs in Biomedicine",
+        "keywords": "Lung segmentation, Lung reconstruction, Chest x-ray, Convolutional neural networks",
+        "pages": "285-296",
+        "title": "An automatic method for lung segmentation and reconstruction in chest X-ray using deep neural networks",
+        "type": "article",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0169260719303517",
+        "volume": "177",
+        "year": "2019"
+    },
+    "app11199057": {
+        "abstract": "Tuberculosis is a potential fatal disease with high morbidity and mortality rates. Tuberculosis death rates are rising, posing a serious health threat in several poor countries around the world. To address this issue, we proposed a novel method for detecting tuberculosis in chest X-ray (CXR) images that uses a three-phased approach to distinguish tuberculosis such as segmentation, feature extraction, and classification. In a CXR, we utilized the Weiner filter to distinguish and reduce the impulse noise. The features were extracted from CXR images and trained using a decision tree classifier known as the stacked loopy decision tree (SLDT) classifier. For the classification process, the ROI-based morphological approach was applied in the mentioned three-phased approach, and the feature extraction was accomplished through chromatic and Prewitt-edge highlights.",
+        "article-number": "9057",
+        "author": "Inbaraj, Xavier Alphonse and Villavicencio, Charlyn and Macrohon, Julio Jerison and Jeng, Jyh-Horng and Hsieh, Jer-Guang",
+        "doi": "10.3390/app11199057",
+        "issn": "2076-3417",
+        "journal": "Applied Sciences",
+        "number": "19",
+        "title": "A Novel Machine Learning Approach for Tuberculosis Segmentation and Prediction Using Chest-X-Ray (CXR) Images",
+        "type": "article",
+        "url": "https://www.mdpi.com/2076-3417/11/19/9057",
+        "volume": "11",
+        "year": "2021"
+    },
+    "article": {
+        "author": "Sahin, Muhammet",
+        "doi": "10.1002/ima.22849",
+        "journal": "International Journal of Imaging Systems and Technology",
+        "month": "01",
+        "title": "Image processing and machine learning\u2010based bone fracture detection and classification using X\u2010ray images",
+        "type": "article",
+        "volume": "33",
+        "year": "2023"
+    },
+    "article1": {
+        "author": "Ullah, Ihsan and Ali, Farman and Shah, Babar and El-Sappagh, Shaker and Abuhmed, Tamer and Park, Sang",
+        "doi": "10.1038/s41598-023-27815-w",
+        "journal": "Scientific Reports",
+        "month": "01",
+        "pages": "791",
+        "title": "A deep learning based dual encoder\u2013decoder framework for anatomical structure segmentation in chest X-ray images",
+        "type": "article",
+        "volume": "13",
+        "year": "2023"
+    }
+}});
